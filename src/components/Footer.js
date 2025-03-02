@@ -4,6 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
+    <div className="all-content">
       <div className="footer-content">
         <div className="footer-section about">
           <h3>About Us</h3>
@@ -44,6 +45,7 @@ const Footer = () => {
         <p>
           &copy; {new Date().getFullYear()} SAT Tech Compnay. All rights reserved.
         </p>
+      </div>
       </div>
     </footer>
   );
